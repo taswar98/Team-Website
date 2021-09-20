@@ -5,7 +5,24 @@ html, body {
   height: 100%;
   width: 100%;
   font-family: 'Poppins', sans-serif;
-  color: #222
+  background-color: #101010;
+  color: #ffffff
+}
+
+h1 {
+  color: #ffffff
+}
+
+p {
+  color: #ffffff
+}
+
+p lead {
+  color: #ffffff
+}
+
+.jumbotron {
+  background-color: black;
 }
 
 .navbar {
@@ -61,7 +78,7 @@ html, body {
 }
 
 .btn-primary {
-  background-color: #6648b1
+  background-color: #6648b1;
   border: 2px solid #563d7c;
 }
 
@@ -102,15 +119,31 @@ html, body {
   width: 100%;
 }
 
+.card-img-top {
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
+}
+
+.card {
+  background-color: black;
+  border-color: dimgray;
+  box-shadow: 0 0 5px 5px white,  /* inner white */
+    0 0 10px 10px gray, /* middle magenta */
+    0 0 10px 10px gray; /* outer cyan */
+  /*box-shadow:  5px 10px 5px 10px gray;*/
+
+}
+
 /*---Media Queries --*/
 @media (max-width: 992px) {
 
   }
 @media (max-width: 768px) {
-  
+
 }
 @media (max-width: 576px) {
-  
+
 }
 
 
@@ -138,7 +171,7 @@ figure {
   height: 100%;
 }
 #fixed {
-  background-image: url('img/mac.png');
+  background-image: url('img/nyancat.gif');
   position: fixed;
   display: block;
   top: 0;
@@ -176,11 +209,3 @@ Large (lg) devices (desktops, 992px and up)
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
-
-
-
-
-
-
-
-
