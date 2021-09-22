@@ -42,15 +42,39 @@ p lead {
   max-height: 100% !important;
 }
 
+ }
+
+.carousel-slide{
+
+  object-fit: contain;
+  height:300px !important;
+  width:350px;
+
+ }
+.carousel img {
+        width:100% !important;
+        min-width:100 !important;
+        height: 100%;
+    }
+
 .carousel-inner img {
   width: 100%;
   height: 100%;
+
 }
 
 .carousel-caption {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+}
+
+.slides {
+
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100%;
+    height: 100%;
 }
 
 .carousel-item img {
@@ -144,6 +168,11 @@ p lead {
 
 }
 
+
+
+
+
+
 /*---Media Queries --*/
 @media (max-width: 992px) {
 
@@ -162,13 +191,15 @@ p lead {
   transition: transform 0.5s ease;
   transition: transform 0.5s ease, -webkit-transform 0.5s ease;
   -webkit-backface-visibility: visible;
+  height: 100%;
+  width: 100%;
   backface-visibility: visible;
 }
 /*--- Fixed Background Image --*/
 figure {
   position: relative;
   width: 100%;
-  height: 60%;
+  height: 100%;
   margin: 0!important;
 }
 .fixed-wrap {
@@ -195,7 +226,7 @@ figure {
 }
 /*--- Bootstrap Padding Fix --*/
 [class*="col-"] {
-    padding: 1rem;
+    padding: 0rem;
 }
 
 
