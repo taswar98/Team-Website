@@ -1,0 +1,6 @@
+1) Run the Include.py (change the postgresql-13 source code path) and the output file is called 'include_dependencies.raw.ta'
+2) Run the function_dep.py which outputs the function call level dependencies   (change path according to functions_srcML.xml) 
+3) Run the srcML.py and the output file is Dependencies_srcML.raw.ta
+4) Take the outfile file from function_dep.py and add it to the end of Dependencies_srcML.raw.ta to get all the dependencies with include directive and function calls
+5) The file Extracted_File_Dependencies_using_Understand.raw must be present in your local machine
+6) Run the statistics.py file that uses all three techniques as input
